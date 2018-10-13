@@ -7,7 +7,7 @@
 #' @param k number of output clusters required; default=2.
 #' @param standardize standardization of observation values required; by default=FALSE.
 #' @param max_iter maximum iterations to be made for clustering; default=20.
-#' @return Balanced k clusters
+#' @return A dataframe object with Balanced k clusters
 #' @import lpSolve
 #' @import dummies
 #' @import stats

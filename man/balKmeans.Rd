@@ -16,7 +16,7 @@ balKmeans(data, k = 2, standardize = FALSE, max_iter = 20)
 \item{max_iter}{maximum iterations to be made for clustering; default=20.}
 }
 \value{
-Balanced k clusters
+A dataframe object with Balanced k clusters
 }
 \description{
 This function implements balanced K-Means algorithm where the minimum and maximum number of observations in each cluster and the power ratings of each observation are taken as constraints.
